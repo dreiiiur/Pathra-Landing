@@ -32,7 +32,7 @@ export default function Navbar() {
 
   const isLight = isHome && !scrolled
   const textColor = isLight ? 'text-cream' : 'text-charcoal'
-  const bgColor = scrolled ? 'bg-cream/95 backdrop-blur-sm shadow-sm' : (isHome ? 'bg-transparent' : 'bg-cream')
+  const bgColor = scrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm' : (isHome ? 'bg-transparent' : 'bg-white')
 
   return (
     <>
