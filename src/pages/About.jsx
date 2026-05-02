@@ -138,7 +138,7 @@ export default function About() {
       </section>
 
       {/* Team / Values grid */}
-      <section className="bg-parchment py-24 px-6">
+      <section className="bg-[#f5f5f5] py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
             <div className="text-center mb-20">
