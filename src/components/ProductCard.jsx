@@ -49,7 +49,7 @@ export default function ProductCard({ product, index = 0 }) {
         <div>
           <p className="text-[10px] tracking-[0.3em] uppercase text-mist mb-1.5">{product.category}</p>
           <h3
-            className="font-serif font-light text-xl text-charcoal transition-colors duration-300 group-hover:text-[#d5b896]"
+            className="font-serif font-light text-xl text-charcoal transition-colors duration-300 group-hover:text-[#003314]"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
             {product.name}
@@ -67,7 +67,7 @@ export default function ProductCard({ product, index = 0 }) {
         <motion.div
           animate={{ x: hovered ? '0%' : '-100%' }}
           transition={{ duration: 0.5, ease: [0.76, 0, 0.24, 1] }}
-          className="absolute inset-0 bg-[#d5b896]"
+          className="absolute inset-0 bg-charcoal"
         />
       </div>
     </motion.div>

@@ -40,7 +40,7 @@ export default function Bags() {
       </section>
 
       {/* Filters */}
-      <section className="sticky top-16 z-30 bg-cream/95 backdrop-blur-sm border-b border-parchment py-5 px-6">
+      <section className="sticky top-16 z-30 bg-[#f5f5f5] backdrop-blur-sm py-5 px-6">
         <div className="max-w-7xl mx-auto flex flex-col gap-4">
           {/* Category pills */}
           <div className="flex gap-3 overflow-x-auto pb-1 hide-scrollbar">
