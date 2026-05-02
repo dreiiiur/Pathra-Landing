@@ -61,12 +61,9 @@ export default function Contact() {
               <div className="space-y-6 text-mist text-sm font-light leading-relaxed">
                 <div>
                   <p className="text-charcoal font-medium text-xs tracking-wider mb-1">Address</p>
-                  <p>142 Greene Street, 3rd Floor<br />New York, NY 10012</p>
+                  <p>Pulilan, Bulacan<br />Philippines</p>
                 </div>
-                <div>
-                  <p className="text-charcoal font-medium text-xs tracking-wider mb-1">Hours</p>
-                  <p>Monday — Friday: 10am – 6pm<br />Saturday: 11am – 4pm<br />Sunday: Closed</p>
-                </div>
+    
                 <div>
                   <p className="text-charcoal font-medium text-xs tracking-wider mb-1">Contact</p>
                   <a href="mailto:hello@pathracollection.com" className="hover:text-charcoal transition-colors duration-300">
