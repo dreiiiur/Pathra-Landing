@@ -59,16 +59,16 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="flex gap-4 mt-8 text-xl text-mist">
-              <a href="https://www.instagram.com/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.instagram.com/pathra.philippines" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-colors duration-300 hover:text-white">
                 <FaInstagram />
               </a>
-              <a href="https://www.facebook.com/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.facebook.com/Pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition-colors duration-300 hover:text-white">
                 <FaFacebookF />
               </a>
-              <a href="https://www.tiktok.com/@pathracollection" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.tiktok.com/@pathraphilippines" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="transition-colors duration-300 hover:text-white">
                 <FaTiktok />
               </a>
-              <a href="https://m.me/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Messenger" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.facebook.com/Pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Messenger" className="transition-colors duration-300 hover:text-white">
                 <RiMessengerFill />
               </a>
             </div>

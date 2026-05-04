@@ -155,7 +155,7 @@ export default function ProductView() {
 
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a
-                  href="https://m.me/pathracollection"
+                  href="https://www.facebook.com/Pathracollection"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-3 rounded-full bg-[#0695FF] px-6 sm:px-8 py-4 text-[10px] tracking-[0.35em] uppercase text-cream transition-colors duration-300 hover:bg-gray-400 min-h-[50px] sm:min-h-[58px]"
@@ -164,7 +164,7 @@ export default function ProductView() {
                   Check out on Messenger
                 </a>
                 <a
-                  href="https://www.tiktok.com/@pathracollection"
+                  href="https://www.tiktok.com/@pathraphilippines"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-3 rounded-full border bg-black px-6 sm:px-8 py-4 text-[10px] tracking-[0.35em] uppercase text-cream transition-colors duration-300 hover:border-0 hover:bg-gray-400 hover:text-cream min-h-[50px] sm:min-h-[58px]"
