@@ -54,16 +54,17 @@ export default function Home() {
               className="font-serif font-light text-5xl md:text-6xl leading-tight text-[#003314] mb-8"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Where form
+              Luxury,
               <br />
-              <em style={{ fontStyle: 'italic' }}>meets function</em>
+              <em style={{ fontStyle: 'italic' }}>redefined</em>
               <br />
-              in silence.
+              for the everyday.
             </h2>
             <div className="w-12 h-px bg-[#d5b896] mb-8" />
             <p className="text-mist font-light leading-relaxed text-base max-w-sm">
-              Each Pathra piece is a study in restraint — where the leather's hand, the stitch's precision,
-              and the hardware's weight tell the only story that matters.
+              We believe that exceptional craftsmanship belongs in every wardrobe. 
+              Pathra bridges the gap between artisanal heritage and modern accessibility, 
+              offering hand-crafted leather pieces that speak of timeless elegance without the steep price tag.
             </p>
           </FadeIn>
           <FadeIn delay={0.2}>
@@ -152,9 +153,9 @@ export default function Home() {
       <section className="py-24 px-6 border-t border-b border-parchment">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
           {[
-            { num: '01', title: 'Handcrafted', sub: 'Every piece is hand-stitched by master artisans with decades of experience.' },
-            { num: '02', title: 'Sustainably Sourced', sub: 'Full-grain leathers selected from certified European tanneries.' },
-            { num: '03', title: 'Lifetime Guarantee', sub: 'Each Pathra piece is built to last and backed by our lifetime promise.' },
+            { num: '01', title: 'Handcrafted', sub: 'Masterfully stitched by local artisans, delivering the same precision found in high-fashion houses at a price that values the wearer.' },
+            { num: '02', title: 'Sustainably Sourced', sub: 'We use the same certified European full-grain leathers as top-tier luxury brands, sourced responsibly to ensure premium quality with a conscience.' },
+            { num: '03', title: 'Lifetime Guarantee', sub: 'Luxury is an investment. Our lifetime promise ensures your Pathra piece remains a staple in your wardrobe for years to come, long after fast-fashion fades.' },
           ].map(({ num, title, sub }, i) => (
             <FadeIn key={num} delay={i * 0.15}>
               <div>

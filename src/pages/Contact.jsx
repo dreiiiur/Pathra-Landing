@@ -22,9 +22,9 @@ export default function Contact() {
   ]
 
   const socials = [
-    { label: 'Instagram', handle: '@pathracollection' },
-    { label: 'Pinterest', handle: 'Pathra Collection' },
-    { label: 'Facebook', handle: 'Pathra Collection' },
+    { label: 'Instagram', handle: '@pathra.philippines', href: 'https://www.instagram.com/pathra.philippines' },
+    { label: 'TikTok', handle: 'pathraphilippines', href: 'https://www.tiktok.com/@pathraphilippines' },
+    { label: 'Facebook', handle: 'Pathra', href: 'https://www.facebook.com/Pathracollection' },
   ]
 
   return (
@@ -66,12 +66,12 @@ export default function Contact() {
     
                 <div>
                   <p className="text-charcoal font-medium text-xs tracking-wider mb-1">Contact</p>
-                  <a href="mailto:hello@pathracollection.com" className="hover:text-charcoal transition-colors duration-300">
-                    hello@pathracollection.com
+                  <a href="mailto:pathra.philippines@gmail.com" className="hover:text-charcoal transition-colors duration-300">
+                    pathra.philippines@gmail.com
                   </a>
                   <br />
                   <a href="tel:+12125550182" className="hover:text-charcoal transition-colors duration-300">
-                    +1 (212) 555 0182
+                    0936 849 0516
                   </a>
                 </div>
               </div>
@@ -81,10 +81,12 @@ export default function Contact() {
             <div>
               <p className="text-[10px] tracking-[0.4em] uppercase text-gold mb-8">Follow Us</p>
               <div className="space-y-4">
-                {socials.map(({ label, handle }) => (
+                {socials.map(({ label, handle, href }) => (
                   <a
                     key={label}
-                    href="#"
+                    href={href}
+                    target="_blank"
+                    rel="noreferrer"
                     className="flex items-center gap-4 group"
                   >
                     <span className="w-8 h-px bg-gold/40 group-hover:bg-gold group-hover:w-12 transition-all duration-300" />

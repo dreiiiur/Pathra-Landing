@@ -63,16 +63,14 @@ export default function About() {
               className="font-serif font-light text-4xl md:text-5xl text-charcoal leading-tight mb-10"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Born from the belief that
-              <em style={{ fontStyle: 'italic' }}> beauty needs no explanation.</em>
+              Best for a
+              <em style={{ fontStyle: 'italic' }}> professional, high-end feel that emphasizes the brand's origin.</em>
             </h2>
             <div className="space-y-6 text-mist text-sm font-light leading-relaxed">
               <p>
-                Pathra Collection was founded in 2018 by designer Mira Pathra, who left a decade in Parisian couture to pursue a singular vision: bags that speak through their material, not their logo.
-              </p>
+                  The Pathra Collection was established in 2025 in the heart of Pulilan, Bulacan. Our vision was born from a singular pursuit: to create leather goods that speak through the integrity of their material, not a luxury logo.              </p>
               <p>
-                From a small workshop in lower Manhattan, Mira assembled a team of seven artisans — each with over twenty years of experience in leatherwork, hardware casting, and hand-stitching. The founding principle was simple: if the leather isn't right, nothing else matters.
-              </p>
+                  What began as a dedicated local workshop has evolved into a collective of master artisans, each bringing decades of experience in leatherwork and hand-stitching. The founding principle remains simple: if the leather isn't right, nothing else matters.              </p>
             </div>
           </FadeIn>
         </div>
@@ -105,21 +103,17 @@ export default function About() {
               className="font-serif font-light text-4xl md:text-5xl text-charcoal leading-tight mb-10"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Craft is not a technique.
+              Craft is not a technique. It is a devotion.
               <br />
               <em style={{ fontStyle: 'italic' }}>It is a devotion.</em>
             </h2>
             <div className="space-y-6 text-mist text-sm font-light leading-relaxed">
               <p>
-                Each Pathra bag requires between 24 and 48 hours of handwork. We use only full-grain and top-grain leathers sourced from three tanneries in Tuscany and Barcelona — partners we have worked with since our founding.
-              </p>
+                Each Pathra piece represents between 24 and 48 hours of meticulous handwork by our artisans in Pulilan, Bulacan.              </p>
               <p>
-                Hardware is cast in solid brass and hand-finished to a matte or brushed surface. We do not use chrome plating. Every closure is tension-tested and every seam is examined under magnification before a piece leaves our workshop.
-              </p>
+                We use premium full-grain and top-grain leathers, ethically sourced from partner tanneries in Tuscany and Barcelona.              </p>
               <p>
-                This is not artisanal theater. It is simply the only way we know how to work.
-              </p>
-            </div>
+                The Pathra philosophy centers on the integrity of the material, which is why we do not use vegan leather. Our pieces are crafted using only premium full-grain and top-grain leathers sourced from certified tanneries in Tuscany and Barcelona. We believe that true, affordable luxury is found in the tactile richness and enduring quality of authentic hides that are built to last a lifetime.       </p>            </div>
           </FadeIn>
         </div>
       </section>
