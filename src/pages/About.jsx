@@ -154,7 +154,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               {
-                title: 'Radical Honesty',
+                title: 'Radical Honest haha',
                 body: 'We tell you exactly what your bag is made of, where it was made, and who made it. No ambiguity.'
               },
               {
