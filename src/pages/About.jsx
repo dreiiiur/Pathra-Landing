@@ -81,14 +81,14 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-32">
           <FadeIn>
             <img
-              src="/images/Almira/almira 3.png"
+              src="/images/bags/Almira/almira 3.png"
               alt="Pathra craft"
               className="w-full aspect-[4/5] object-cover"
             />
           </FadeIn>
           <FadeIn delay={0.2}>
             <img
-              src="/images/Almira/almira.jpg"
+              src="/images/about.jpg"
               alt="Pathra materials"
               className="w-full aspect-[4/5] object-cover mt-0 md:mt-12"
             />
@@ -154,7 +154,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[
               {
-                title: 'Radical Honest haha',
+                title: 'Radical Honest',
                 body: 'We tell you exactly what your bag is made of, where it was made, and who made it. No ambiguity.'
               },
               {
