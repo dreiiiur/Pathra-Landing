@@ -137,3 +137,6 @@ export const products = [
     },
   },
 ]
+
+export const featuredProducts = products.slice(0, 3)
+export const categories = ['All', 'Tote Bag', 'Two-way Bag', 'Laptop Bag']
