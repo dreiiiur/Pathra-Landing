@@ -122,19 +122,6 @@ export default function About() {
             </div>
           </FadeIn>
         </div>
-
-        {/* Full quote */}
-        <FadeIn>
-          <div className="text-center py-24 border-t border-b border-parchment">
-            <p
-              className="font-serif font-light text-3xl md:text-5xl text-charcoal max-w-4xl mx-auto leading-tight"
-              style={{ fontFamily: "'Cormorant Garamond', serif" }}
-            >
-              "We are not interested in trend. We are interested in the weight of leather in your hand — that specific gravity that tells you something was made with care."
-            </p>
-            <p className="text-[10px] tracking-[0.4em] uppercase text-gold mt-10">— Mira Pathra, Founder</p>
-          </div>
-        </FadeIn>
       </section>
 
       {/* Team / Values grid */}
