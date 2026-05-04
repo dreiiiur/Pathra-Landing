@@ -23,6 +23,10 @@ export default function Navbar() {
     return () => { document.body.style.overflow = '' }
   }, [menuOpen])
 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
   const navLinks = [
     { to: '/', label: 'Home' },
     { to: '/bags', label: 'Collection' },
@@ -42,7 +46,7 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
+          <Link to="/" onClick={scrollToTop} className="flex items-center gap-3">
             <img
               src={isLight ? '/images/logo2.png' : '/images/logo1.png'}
               alt="Pathra Logo"
@@ -56,6 +60,7 @@ export default function Navbar() {
               <Link
                 key={to}
                 to={to}
+                onClick={scrollToTop}
                 className={`relative text-[11px] tracking-[0.3em] uppercase font-sans font-medium transition-colors duration-500 group ${textColor}`}
               >
                 {label}
@@ -108,6 +113,7 @@ export default function Navbar() {
                 >
                   <Link
                     to={to}
+                    onClick={scrollToTop}
                     className={`text-4xl font-serif font-light text-cream tracking-wider transition-colors duration-300 hover:text-gold ${location.pathname === to ? 'text-gold' : ''}`}
                     style={{ fontFamily: "'Cormorant Garamond', serif" }}
                   >

@@ -10,7 +10,7 @@ const stars = [1, 2, 3, 4, 5]
 
 export default function ProductView() {
   const { id } = useParams()
-  const product = products.find(item => item.id === Number(id))
+  const product = products.find(item => item.id === String(id))
   const [selectedColor, setSelectedColor] = useState(product?.colors?.[0] || '')
   const [selectedImage, setSelectedImage] = useState(
     product?.colorImages?.[product?.colors?.[0]] || product?.image

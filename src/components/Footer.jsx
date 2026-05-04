@@ -3,6 +3,9 @@ import { FaInstagram, FaFacebookF, FaTiktok } from 'react-icons/fa'
 import { RiMessengerFill } from 'react-icons/ri'
 
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
   return (
     <footer className="bg-[#003314] text-cream py-20 px-6">
       <div className="max-w-7xl mx-auto">
@@ -14,7 +17,7 @@ export default function Footer() {
               <div>
                 <p
                   className="font-serif font-light tracking-[0.25em] text-2xl text-cream"
-                  style={{ fontFamily: "poppins", fontweight: "bold" }}
+                  style={{ fontFamily: "poppins", fontWeight: "bold" }}
                 >
                   PATHRA
                 </p>
@@ -34,6 +37,7 @@ export default function Footer() {
                 <Link
                   key={to}
                   to={to}
+                  onClick={scrollToTop}
                   className="text-sm text-mist hover:text-cream transition-colors duration-300 w-fit"
                 >
                   {label}
@@ -55,16 +59,16 @@ export default function Footer() {
 
             {/* Social icons */}
             <div className="flex gap-4 mt-8 text-xl text-mist">
-              <a href="#" aria-label="Instagram" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.instagram.com/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="transition-colors duration-300 hover:text-white">
                 <FaInstagram />
               </a>
-              <a href="#" aria-label="Facebook" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.facebook.com/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="transition-colors duration-300 hover:text-white">
                 <FaFacebookF />
               </a>
-              <a href="#" aria-label="TikTok" className="transition-colors duration-300 hover:text-white">
+              <a href="https://www.tiktok.com/@pathracollection" target="_blank" rel="noopener noreferrer" aria-label="TikTok" className="transition-colors duration-300 hover:text-white">
                 <FaTiktok />
               </a>
-              <a href="https://m.me/pathracollection" aria-label="Messenger" className="transition-colors duration-300 hover:text-white">
+              <a href="https://m.me/pathracollection" target="_blank" rel="noopener noreferrer" aria-label="Messenger" className="transition-colors duration-300 hover:text-white">
                 <RiMessengerFill />
               </a>
             </div>
