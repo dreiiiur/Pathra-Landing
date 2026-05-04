@@ -81,14 +81,14 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-32">
           <FadeIn>
             <img
-              src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=900&q=85&auto=format&fit=crop"
+              src="/images/Almira/almira 3.png"
               alt="Pathra craft"
               className="w-full aspect-[4/5] object-cover"
             />
           </FadeIn>
           <FadeIn delay={0.2}>
             <img
-              src="https://images.unsplash.com/photo-1614179924047-e1ab49a0a0cf?w=900&q=85&auto=format&fit=crop"
+              src="/images/Almira/almira.jpg"
               alt="Pathra materials"
               className="w-full aspect-[4/5] object-cover mt-0 md:mt-12"
             />
