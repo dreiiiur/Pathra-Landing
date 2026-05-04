@@ -70,7 +70,7 @@ export default function Contact() {
                     pathra.philippines@gmail.com
                   </a>
                   <br />
-                  <a href="tel:+12125550182" className="hover:text-charcoal transition-colors duration-300">
+                  <a href="tel:0936 849 0516" className="hover:text-charcoal transition-colors duration-300">
                     0936 849 0516
                   </a>
                 </div>
