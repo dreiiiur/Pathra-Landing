@@ -91,33 +91,11 @@ export default function Bags() {
         )}
       </section>
 
-      {/* Editorial footer banner */}
-      <section className="mx-6 mb-20 relative overflow-hidden">
-        <div className="bg-parchment px-12 py-20 flex flex-col md:flex-row items-center gap-12 md:gap-20">
-          <div className="flex-1">
-            <p className="text-[10px] tracking-[0.4em] uppercase text-gold mb-5">Bespoke Service</p>
-            <h2
-              className="font-serif font-light text-4xl md:text-5xl text-charcoal leading-tight"
-              style={{ fontFamily: "'Cormorant Garamond', serif" }}
-            >
-              Commission
-              <br />
-              <em style={{ fontStyle: 'italic' }}>your own piece.</em>
-            </h2>
-          </div>
-          <div className="flex-1 text-mist text-sm leading-relaxed md:border-l md:border-gold/30 md:pl-12">
-            <p>
-              Work directly with our New York atelier to create a bespoke Pathra bag — your choice of leather, hardware, dimensions, and monogram.
-            </p>
-            <a
-              href="/contact"
-              className="inline-block mt-8 text-[10px] tracking-[0.35em] uppercase text-charcoal border-b border-charcoal pb-0.5 hover:text-gold hover:border-gold transition-colors duration-300"
-            >
-              Begin the Conversation
-            </a>
-          </div>
-        </div>
-      </section>
+      {/* Filter overlay */}
+      <div
+        className={`fixed inset-0 z-40 bg-black bg-opacity-50 transition-opacity duration-300 ${filterOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+        onClick={() => setFilterOpen(false)}
+      />
 
       <style>{`
         .hide-scrollbar::-webkit-scrollbar { display: none; }

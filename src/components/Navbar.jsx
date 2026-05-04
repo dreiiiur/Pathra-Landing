@@ -42,18 +42,12 @@ export default function Navbar() {
       >
         <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex flex-col items-start group">
-            <span
-              className={`font-serif font-light tracking-[0.22em] text-xl transition-colors duration-500 ${textColor}`}
-              style={{ fontFamily: "'Cormorant Garamond', serif", letterSpacing: '0.22em' }}
-            >
-              PATHRA
-            </span>
-            <span
-              className={`text-[9px] tracking-[0.5em] uppercase font-sans font-light -mt-0.5 transition-colors duration-500 ${isLight ? 'text-gold-light' : 'text-gold'}`}
-            >
-              Collection
-            </span>
+          <Link to="/" className="flex items-center gap-3">
+            <img
+              src={isLight ? '/images/logo2.png' : '/images/logo1.png'}
+              alt="Pathra Logo"
+              className="h-8 transition-all duration-500"
+            />
           </Link>
 
           {/* Desktop Nav */}

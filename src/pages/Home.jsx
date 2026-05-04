@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex gap-0 whitespace-nowrap" style={{ animation: 'marquee 25s linear infinite' }}>
           {Array(6).fill(null).map((_, i) => (
             <span key={i} className="text-[10px] tracking-[0.4em] uppercase text-mist px-12">
-              Pathra Collection · Handcrafted Excellence · Timeless Design · Since 2018 ·
+              Pathra Collection · Timeless Design · Since 2025 ·
             </span>
           ))}
         </div>
@@ -69,15 +69,15 @@ export default function Home() {
           <FadeIn delay={0.2}>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=900&q=85&auto=format&fit=crop"
+                src="/images/bags/placeholder.jpg"
                 alt="Pathra craftsmanship"
                 className="w-full aspect-[4/5] object-cover"
               />
               <div className="absolute -bottom-6 -left-6 bg-parchment p-6 hidden md:block">
                 <p className="font-serif text-3xl text-[#003314]" style={{ fontFamily: "'Cormorant Garamond', serif" }}>
-                  Since 2018
+                  Since 2025
                 </p>
-                <p className="text-[9px] tracking-[0.35em] uppercase text-mist mt-1">New York Atelier</p>
+                <p className="text-[9px] tracking-[0.35em] uppercase text-mist mt-1">Baliuag, Bulacan</p>
               </div>
             </div>
           </FadeIn>
@@ -122,7 +122,7 @@ export default function Home() {
       {/* Full-width editorial banner */}
       <section className="relative h-screen max-h-[700px] overflow-hidden my-20">
         <img
-          src="https://images.unsplash.com/photo-1614179924047-e1ab49a0a0cf?w=1800&q=90&auto=format&fit=crop"
+          src="/images/event almira.png"
           alt="Editorial"
           className="w-full h-full object-cover"
         />
@@ -158,7 +158,7 @@ export default function Home() {
           ].map(({ num, title, sub }, i) => (
             <FadeIn key={num} delay={i * 0.15}>
               <div>
-                <p className="font-serif text-4xl text-[#d5b896]/40 mb-6" style={{ fontFamily: "'Cormorant Garamond', serif" }}>{num}</p>
+                <p className="font-serif text-4xl text-[#d5b896] mb-6" style={{ fontFamily: "'Cormorant Garamond', serif" }}>{num}</p>
                 <h3
                   className="font-serif text-2xl text-[#003314] mb-4"
                   style={{ fontFamily: "'Cormorant Garamond', serif" }}

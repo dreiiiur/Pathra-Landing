@@ -24,7 +24,7 @@ export default function About() {
       {/* Header */}
       <section className="pt-40 pb-20 px-6 max-w-5xl mx-auto text-center">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
-          <p className="text-[10px] tracking-[0.5em] uppercase text-gold mb-8">Est. 2018 · New York</p>
+          <p className="text-[10px] tracking-[0.5em] uppercase text-gold mb-8">Est. 2025 · Baliuag, Bulacan</p>
           <h1
             className="font-serif font-light leading-none text-charcoal mb-12"
             style={{
@@ -44,11 +44,11 @@ export default function About() {
       <FadeIn>
         <div className="mx-6 md:mx-16 mb-32">
           <img
-            src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=1600&q=90&auto=format&fit=crop"
+            src="/images/bags/Event.jpg"
             alt="Pathra Atelier"
             className="w-full h-[60vh] object-cover"
           />
-          <p className="text-[9px] tracking-[0.35em] uppercase text-mist mt-3">Pathra Atelier, New York · 2024</p>
+          <p className="text-[9px] tracking-[0.35em] uppercase text-mist mt-3">Pathra Collection, Baliuag, Bulacan · 2025</p>
         </div>
       </FadeIn>
 

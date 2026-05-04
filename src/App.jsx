@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Bags from './pages/Bags'
+import ProductView from './pages/ProductView'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -14,6 +15,7 @@ function AnimatedRoutes() {
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/bags" element={<Bags />} />
+        <Route path="/product/:id" element={<ProductView />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

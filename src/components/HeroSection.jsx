@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=1800&q=90&auto=format&fit=crop"
+          src="/images/bags/Hero.jpg"
           alt="Hero bag"
           className="w-full h-full object-cover scale-105"
           style={{ animation: 'slowZoom 12s ease-out forwards' }}
@@ -24,11 +24,11 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          <p className="text-[10px] tracking-[0.5em] uppercase text-gold mb-6">New Collection · 2025</p>
+          <p className="text-[10px] tracking-[0.5em] uppercase text-white mb-6">New Collection · 2025</p>
           <h1
             className="text-cream font-serif font-light leading-none mb-8"
             style={{
-              fontFamily: "'Cormorant Garamond', serif",
+              fontFamily: "po",
               fontSize: 'clamp(3.5rem, 10vw, 9rem)',
               letterSpacing: '-0.02em'
             }}

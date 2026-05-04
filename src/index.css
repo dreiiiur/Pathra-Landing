@@ -9,7 +9,7 @@
   body {
     background-color: #ffffff;
     color: #003314;
-    font-family: 'DM Sans', sans-serif;
+    font-family: poppins, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
   * { box-sizing: border-box; }
