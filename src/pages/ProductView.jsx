@@ -93,7 +93,7 @@ export default function ProductView() {
             <div className="space-y-4">
               <div className="flex flex-col gap-3">
                 <p className="text-[10px] tracking-[0.45em] uppercase text-gold">{product.category}</p>
-                <h1 className="font-serif font-light text-3xl sm:text-4xl lg:text-5xl text-charcoal leading-tight" style={{ fontFamily: "poppins" }}>
+                <h1 className="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-charcoal leading-tight " style={{ fontFamily: "poppins" }}>
                   {product.name}
                 </h1>
               </div>

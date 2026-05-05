@@ -39,7 +39,7 @@ export const products = [
     category: 'Laptop Bag',
     price: '₱849',
     tag: null,
-    image: '/images/bags/Atlas/Atlas BLack.png',
+    image: '/images/bags/Atlas/Atlas new.png',
     image2: '/images/bags/Atlas/Atlas in Tan.png',
     description: 'A reliable and durable bag built for work and daily carry.',
     material: 'Vegetable-tanned leather' + ' Double Lining with Zippers',
