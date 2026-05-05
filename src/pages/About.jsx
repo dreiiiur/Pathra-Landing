@@ -32,9 +32,9 @@ export default function About() {
               fontSize: 'clamp(3rem, 8vw, 7rem)',
             }}
           >
-            A house built
+            A story of
             <br />
-            <em style={{ fontStyle: 'italic', color: '#8B9A8A' }}>on silence.</em>
+            <em style={{ fontStyle: 'italic', color: '#8B9A8A' }}>craft, material, and devotion.</em>
           </h1>
           <div className="w-12 h-px bg-gold mx-auto" />
         </motion.div>
@@ -103,17 +103,19 @@ export default function About() {
               className="font-serif font-light text-4xl md:text-5xl text-charcoal leading-tight mb-10"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
             >
-              Craft is not a technique. It is a devotion.
+              Craft is not a technique. 
               <br />
               <em style={{ fontStyle: 'italic' }}>It is a devotion.</em>
             </h2>
             <div className="space-y-6 text-mist text-sm font-light leading-relaxed">
               <p>
-                Each Pathra piece represents between 24 and 48 hours of meticulous handwork by our artisans in Pulilan, Bulacan.              </p>
-              <p>
+                Each Pathra piece represents between 24 and 48 hours of meticulous handwork by our artisans in Pulilan, Bulacan.
                 We use premium full-grain and top-grain leathers, ethically sourced from partner tanneries in Tuscany and Barcelona.              </p>
               <p>
-                The Pathra philosophy centers on the integrity of the material, which is why we do not use vegan leather. Our pieces are crafted using only premium full-grain and top-grain leathers sourced from certified tanneries in Tuscany and Barcelona. We believe that true, affordable luxury is found in the tactile richness and enduring quality of authentic hides that are built to last a lifetime.       </p>            </div>
+                The Pathra philosophy is rooted in material integrity. We choose not to use vegan leather, focusing instead on premium full-grain and top-grain leathers sourced from certified tanneries in Tuscany and Barcelona. By combining globally recognized materials with thoughtful craftsmanship, we create pieces that offer true, accessible luxury—defined by rich texture, lasting durability, and timeless character made to endure for years.
+              </p>
+              
+            </div>
           </FadeIn>
         </div>
       </section>

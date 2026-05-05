@@ -130,7 +130,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#003314]/70 to-transparent" />
         <div className="absolute inset-0 flex items-center px-12 md:px-24">
           <FadeIn className="max-w-xl">
-            <p className="text-[10px] tracking-[0.4em] uppercase text-[#d5b896] mb-6">Autumn — Winter 2025</p>
+            <p className="text-[10px] tracking-[0.4em] uppercase text-[#d5b896] mb-6">Summer 2026</p>
             <h2
               className="font-serif font-light text-4xl md:text-6xl text-cream leading-tight mb-8"
               style={{ fontFamily: "'Cormorant Garamond', serif" }}
@@ -153,9 +153,23 @@ export default function Home() {
       <section className="py-24 px-6 border-t border-b border-parchment">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 text-center">
           {[
-            { num: '01', title: 'Handcrafted', sub: 'Masterfully stitched by local artisans, delivering the same precision found in high-fashion houses at a price that values the wearer.' },
-            { num: '02', title: 'Sustainably Sourced', sub: 'We use the same certified European full-grain leathers as top-tier luxury brands, sourced responsibly to ensure premium quality with a conscience.' },
-            { num: '03', title: 'Lifetime Guarantee', sub: 'Luxury is an investment. Our lifetime promise ensures your Pathra piece remains a staple in your wardrobe for years to come, long after fast-fashion fades.' },
+            
+  {
+    num: '01',
+    title: 'Filipino Craftsmanship',
+    sub: 'Each Pathra piece is carefully handcrafted by skilled Filipino artisans, blending traditional techniques with modern precision to deliver world-class quality at a price that honors local talent.'
+  },
+  {
+    num: '02',
+    title: 'Responsibly Sourced Materials',
+    sub: 'We use premium full-grain leather sourced with integrity, combining global standards with mindful practices to create products that are both luxurious and sustainable.'
+  },
+  {
+    num: '03',
+    title: 'Built to Last',
+    sub: 'Pathra is designed for longevity. Our commitment to durability ensures every piece remains a timeless part of your wardrobe—far beyond passing trends.'
+  }
+
           ].map(({ num, title, sub }, i) => (
             <FadeIn key={num} delay={i * 0.15}>
               <div>
