@@ -102,8 +102,8 @@ export default function Contact() {
             {/* Atelier image */}
             <div className="mt-16">
               <img
-                src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=700&q=85&auto=format&fit=crop"
-                alt="Pathra atelier"
+                src="/images/bags/contact.jpg"
+                alt="Pathra Collections"
                 className="w-full aspect-[4/3] object-cover"
               />
             </div>
